@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../midia/midiaIndex/backgroundIndex.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+#cabecalho {
+    height: 40vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.548);
+    box-shadow: 0px 100px 100px rgb(255, 255, 255);
+    display: flex;
+    border: 10px double white;
+    border-left: none;
+    border-right: none;
+
+}
+
+.containerCabecalho {
+    height: 100%;
+}
+
+#containerCabecalho1 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-right: 2px solid rgb(255, 255, 255);
+    background-color: rgba(187, 9, 9, 0.781);
+}
+
+#framePerfil {
+    border: 2px solid rgb(87, 31, 31);
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 0, 0);
+    margin-top: 15px;
+}
+
+#framePerfil img {
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+}
+
+#containerCabecalho1 p {
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+}
+
+#containerCabecalho2 {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcoesCabecalho {
+    width: 130px;
+    height: 200px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoesCabecalho label {
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    height: 30%;
+    line-height: 130%;
+}
+
+.opcoesCabecalho a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font: small-caption;
+    margin-top: 15px;
+    border-bottom: 1px solid white;
+    border-radius: 20px;
+    height: 100px;
+}
+
+.opcoesCabecalho a img {
+    height: 70%;
+    transition: 0.4s ease;
+    opacity: 0.7;
+}
+
+.opcoesCabecalho a:hover img {
+    height: 85%;
+    opacity: 1;
+}
+
+.conteudoPrincipal {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.decoracaoBgBloco {
+    width: 100%;
+    height: 10%;
+    background-image: url(../midia/midiaIndex/gramaMario.jpg);
+    background-size: contain;
+    box-shadow: 0px 5px 10px black;
+}
+
+#containerPrinciapal1 {
+    height: 90%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#marioCorrendoCP1 {
+    position: absolute;
+    left: 530px;
+    height: 150px;
+    top: 670px;
+}
+
+#containerPrinciapal1 h1 {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 70px;
+    width: 500px;
+    margin-right: 120px;
+}
+
+#containerPrinciapal1 p {
+    color: white;
+    font-family: cursive;
+    width: 40%;
+    font-size: 24px;
+    border: 6px double white;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#containerPrincipal2 {
+    height: 150%;
+    width: 100%;
+    box-shadow: 0px 0px 10px white;
+    background-color: rgba(0, 0, 0, 0.582);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-bottom: 100px;
+}
+
+#rodape {
+    height: 30vh;
+    background-image: url(../midia/midiaIndex/gramaMario.jpg);
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodape div {
+    background-color: rgba(0, 0, 0, 0.651);
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px dotted white;
+}
+
+#rodape p {
+    line-height: 30px;
+}
